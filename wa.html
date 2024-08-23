@@ -72,11 +72,11 @@
 	  <br>
 	  HARAP TUNGGU
 	  <br>
-	  Kami Akan Mengarahkanmu ke Wangsaf dalam <span id="countdown">16</span> detik...
+	  Kami Akan Mengarahkanmu ke Wangsaf dalam <span id="countdown">10</span> detik...
 	  <br>
   </p>
   <script>
-    var countdown = 16; // Mulai dari 6 detik
+    var countdown = 10; // Mulai Countdown
     var countdownElement = document.getElementById("countdown");
 
     function updateCountdown() {
@@ -84,7 +84,7 @@
       countdownElement.innerText = countdown;
 
       if (countdown === 0) {
-        window.location.href = "https://chat.whatsapp.com/BJq1y0QKAI1GtvOLaU2BR9";
+        window.location.href = "https://wa.me/6289647057509?text=.menu";
       } else {
         setTimeout(updateCountdown, 1000); // Perbarui setiap 1 detik
       }
